@@ -6,7 +6,7 @@ import random
 
 def bing_search(query):
     bing_url = ''
-    MS_ACCTKEY = '3TlFTREHtLueRATpZTMxOQ4Fwa/oWNTGyh3Q4+VUBMs'
+    MS_ACCTKEY = ''
 
     payload = { '$format': 'json',
                 'Query': "'"+query+"'",
